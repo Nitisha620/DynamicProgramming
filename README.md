@@ -1,1 +1,3 @@
 # DynamicProgramming
+
+Knapsack recursive approach
