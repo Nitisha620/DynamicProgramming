@@ -1,0 +1,11 @@
+int knapsack(int item[],int w[],int capacity,int size){
+
+	if(size==0 or capacity==0)
+	return 0
+	
+	if(w[n] <= capacity)
+	return max(knapsack(item,w,capacity-w[n],n-1),
+		   knapsack(item,w,capcity,n-1));
+	else
+	knapsack(item,w,capacity,n-1);
+}
